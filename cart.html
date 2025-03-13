@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .product img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .details {
+            flex-grow: 1;
+        }
+        select {
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Shopping Cart</h2>
+    
+    <div class="product">
+        <img src="C:\Users\Rohith\Downloads\guitar.jpeg" alt="Yamaha F310 Guitar">
+        <div class="details">
+            <h3>Yamaha F310 Guitar</h3>
+            <p>Cost: $150.00</p>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\Rohith\Downloads\s25.jpeg" alt="Samsung S25 Ultra">
+        <div class="details">
+            <h3>Samsung S25 Ultra</h3>
+            <p>Cost: $1,200.00</p>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="C:\Users\Rohith\Downloads\ps5.jpeg" alt="PS5">
+        <div class="details">
+            <h3>PS5</h3>
+            <p>Cost: $500.00</p>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
